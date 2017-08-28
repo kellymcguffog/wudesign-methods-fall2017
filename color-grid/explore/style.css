@@ -1,0 +1,89 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 100%;
+}
+.container{
+	height: 100%;
+	font-size: 0;
+}
+.row{
+	height: 25%;
+}
+.box{
+	width: 25%;
+	height: 100%;
+}
+.box:hover{
+   box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+.box-change {
+    border-radius: 100%;
+    -webkit-transform: scale(.3, .3);
+    -moz-transform: scale(.3, ,.3);
+    -o-transform: scale(.3, .3);
+    -ms-transform: scale(.3, .3);
+        transform: scale(.3, .3);
+    }
+.boxone{
+	display: inline-block;
+}
+.boxtwo{
+	display: inline-block;
+}
+.boxthree{
+	display: inline-block;
+}
+.boxfour{
+	display: inline-block;
+}
+.boxonetwo{
+	display: inline-block;
+}
+.boxtwotwo{
+	display: inline-block;
+}
+.boxthreetwo{
+	display: inline-block;
+}
+.boxfourtwo{
+	display: inline-block;
+}
+.boxonethree{
+	display: inline-block;
+}
+.boxtwothree{
+	display: inline-block;
+}
+.boxthreethree{
+	display: inline-block;
+}
+.boxfourthree{
+	display: inline-block;
+}
+.boxonefour{
+	display: inline-block;
+}
+.boxtwofour{
+	display: inline-block;
+}
+.boxthreefour{
+	display: inline-block;
+}
+.boxfourfour{
+	display: inline-block;
+}
