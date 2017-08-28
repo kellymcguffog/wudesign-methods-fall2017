@@ -1,0 +1,113 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 100%;
+}
+.container{
+	height: 100%;
+	font-size: 0;
+}
+.row{
+	height: 25%;
+}
+.boxone{
+	background-color: red;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwo{
+	background-color: orange;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthree{
+	background-color: yellow;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfour{
+	background-color: green;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxonetwo{
+	background-color: #e50000;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwotwo{
+	background-color: #ffae19;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthreetwo{
+	background-color: #ffff7f;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfourtwo{
+	background-color: #00ff00;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxonethree{
+	background-color: #cc0000;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwothree{
+	background-color: #ffb732;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthreethree{
+	background-color: #ffff99;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfourthree{
+	background-color: #00e500;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxonefour{
+	background-color: #b20000;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwofour{
+	background-color: #ffc04c;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthreefour{
+	background-color: #ffffb2;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfourfour{
+	background-color: #00cc00;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
