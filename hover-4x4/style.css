@@ -1,0 +1,161 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 100%;
+}
+.container{
+	height: 100%;
+	font-size: 0;
+}
+.row{
+	height: 25%;
+}
+.boxone{
+	background-color: red;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxone:hover{
+	background-color: #000000;
+}
+.boxtwo{
+	background-color: orange;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwo:hover{
+	background-color: #000000;
+}
+.boxthree{
+	background-color: yellow;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthree:hover{
+	background-color: #000000;
+}
+.boxfour{
+	background-color: green;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfour:hover{
+	background-color: #000000;
+}
+.boxonetwo{
+	background-color: #e50000;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxonetwo:hover{
+	background-color: #000000;
+}
+.boxtwotwo{
+	background-color: #ffae19;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwotwo:hover{
+	background-color: #000000;;
+}
+.boxthreetwo{
+	background-color: #ffff7f;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthretwo:hover{
+	background-color: #000000;
+}
+.boxfourtwo{
+	background-color: #00ff00;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfourtwo:hover{
+	background-color: #000000;
+}
+.boxonethree{
+	background-color: #cc0000;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxonethree:hover{
+	background-color: #000000;
+}
+.boxtwothree{
+	background-color: #ffb732;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwothree:hover{
+	background-color: #000000;
+}
+.boxthreethree{
+	background-color: #ffff99;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthreethree:hover{
+	background-color: #000000;
+}
+.boxfourthree{
+	background-color: #00e500;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfourthree:hover{
+	background-color: #000000;
+}
+.boxonefour{
+	background-color: #b20000;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxonefour:hover{
+	background-color: #000000;
+}
+.boxtwofour{
+	background-color: #ffc04c;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxtwofour:hover{
+	background-color: #000000;
+}
+.boxthreefour{
+	background-color: #ffffb2;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxthreefour:hover{
+	background-color: #000000;
+}
+.boxfourfour{
+	background-color: #00cc00;
+	width: 25%;
+	display: inline-block;
+	height: 100%;
+}
+.boxfourfour:hover{
+	background-color: #000000;
+}
