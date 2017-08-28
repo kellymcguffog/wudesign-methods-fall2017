@@ -1,0 +1,85 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	box-sizing: border-box;
+	height: 100%;
+}
+.container{
+	height: 100%;
+	font-size: 0;
+}
+.row{
+	height: 25%;
+}
+.box{
+	width: 25%;
+	height: 100%;
+}
+.boxone{
+	background-color: red;
+	display: inline-block;
+}
+.boxtwo{
+	background-color: orange;
+	display: inline-block;
+}
+.boxthree{
+	background-color: yellow;
+	display: inline-block;
+}
+.boxfour{
+	background-color: green;
+	display: inline-block;
+}
+.boxonetwo{
+	background-color: #e50000;
+	display: inline-block;
+}
+.boxtwotwo{
+	background-color: #ffae19;
+	display: inline-block;
+}
+.boxthreetwo{
+	background-color: #ffff7f;
+	display: inline-block;
+}
+.boxfourtwo{
+	background-color: #00ff00;
+	display: inline-block;
+}
+.boxonethree{
+	background-color: #cc0000;
+	display: inline-block;
+}
+.boxtwothree{
+	background-color: #ffb732;
+	display: inline-block;
+}
+.boxthreethree{
+	background-color: #ffff99;
+	display: inline-block;
+}
+.boxfourthree{
+	background-color: #00e500;
+	display: inline-block;
+}
+.boxonefour{
+	background-color: #b20000;
+	display: inline-block;
+}
+.boxtwofour{
+	background-color: #ffc04c;
+	display: inline-block;
+}
+.boxthreefour{
+	background-color: #ffffb2;
+	display: inline-block;
+}
+.boxfourfour{
+	background-color: #00cc00;
+	display: inline-block;
+}
