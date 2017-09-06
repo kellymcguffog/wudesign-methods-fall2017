@@ -1,6 +1,10 @@
 body{
 	cursor: pointer;
 }
+div{
+	margin: 5em auto;
+	text-align: center;
+}
 button{
 	background-color: white;
 	border:3px solid black;
@@ -67,24 +71,28 @@ button{
 }
 .twentytwo{
 	position: relative;
+	height: 100px;
 }
 .slide{
 	position: absolute;
 }
 .fourteen{
 	position: relative;
+	height: 100px;
 }
 .grow{
 	position: absolute;
 }
 .twelve{
 	position: relative;
+	height: 100px;
 }
 .around{
 	position: absolute;
 }
 .thirteen{
 	position: relative;
+	height: 100px;
 }
 .font{
 	position: absolute;
@@ -148,6 +156,12 @@ button{
     width: 100px;
     height: 100px;
     background: #ccc;
+}
+.twentysix{
+	height: 200px;
+}
+.twentyseven{
+	height: 100px;
 }
 .slidechange{
 	transition: all 3s;
@@ -365,6 +379,9 @@ button{
 .grid-box {
 	border: blue 1px solid;
 	height: 100px;
+}
+.row div, .row{
+	margin: 0;
 }
 .letter {
 	font-size: 36px;
@@ -594,4 +611,8 @@ button{
 }
 .finito{
 	left: 50%;
+}
+.eightyfour{
+	height: 100px;
+	position: relative;
 }

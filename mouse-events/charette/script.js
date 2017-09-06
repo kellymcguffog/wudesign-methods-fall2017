@@ -38,7 +38,7 @@ $(".thirteen").click(function(){
 $('#test').attr('checked','checked');
 
 $('#test').removeAttr('checked');
-$(".hide").click(function(){
+$(".psh").click(function(){
         $("p").hide("slow", function(){
             ("The paragraph is now hidden");
         });
@@ -53,12 +53,12 @@ $(".fadeout").click(function(){
         $(".boxtwo").fadeOut("slow");
         $(".boxthree").fadeOut(3000);
     });
-$(".fade").click(function(){
+$(".fading").click(function(){
         $(".quarter").fadeTo("slow", 0.15);
         $(".half").fadeTo("slow", 0.4);
         $(".full").fadeTo("slow", 0.7);
     });
-$(".close").click(function(){
+$(".ha").click(function(){
         $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
     });
 $(".remove").click(function(){
@@ -473,5 +473,5 @@ function openWin() {
 }
 
 function closeWin() {
-    newWindow.close();
+    newWindow.ciao();
 }
