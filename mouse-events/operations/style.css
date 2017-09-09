@@ -1,0 +1,14 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.box{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	margin: 30px;
+}
+.turn{
+	transition: all 1s;
+	transform: rotate(360deg);
+}
