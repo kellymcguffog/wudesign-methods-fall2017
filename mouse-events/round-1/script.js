@@ -94,7 +94,7 @@ var clickCount = 0;
 	});
    followCursor.init();
   document.body.onmousemove = followCursor.run;
-}
+
 	});
 function getMouseCoords(e) {
   var e = e || window.event;
