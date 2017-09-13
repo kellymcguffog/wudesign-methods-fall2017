@@ -1,48 +1,48 @@
 {
-entrypoints: [
+"entrypoints": [
 {
-name: "index",
-file: "index.html"
+"name": "index",
+"file": "index.html"
 },
 {
-name: "Water",
-file: "water.html"
+"name": "Water",
+"file": "water.html"
 },
 {
-name: "Move",
-file: "move.html"
+"name": "Move",
+"file": "move.html"
 },
 {
-name: "Slideshow",
-file: "slideshow.html"
+"name": "Slideshow",
+"file": "slideshow.html"
 },
 {
-name: "Fireworks",
-file: "fireworks.html"
+"name": "Fireworks",
+"file": "fireworks.html"
 },
 {
-name: "Scroll",
-file: "scroll.html"
+"name": "Scroll",
+"file": "scroll.html"
 },
 {
-name: "Space",
-file: "space.html"
+"name": "Space",
+"file": "space.html"
 },
 {
-name: "Pictures",
-file: "pictures.html"
+"name": "Pictures",
+"file": "pictures.html"
 },
 {
-name: "Flip",
-file: "flip.html"
+"name": "Flip",
+"file": "flip.html"
 },
 {
-name: "Transition",
-file: "transition.html"
+"name": "Transition",
+"file": "transition.html"
 },
 {
-name: "Car",
-file: "3d.html"
-},
+"name": "Car",
+"file": "3d.html"
+}
 ]
 }
