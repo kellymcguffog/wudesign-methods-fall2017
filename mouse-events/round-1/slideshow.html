@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slideshow</title>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="js/infinite-scroller.js"></script>
+  <link href="infinite-scroller.css" rel="stylesheet">
+</head>
+<body>
+<div id="example">
+  <ul>
+    <li><img src="http://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Florence/Florence%20edit-xlarge.jpg"></li>
+    <li><img src="http://cdn2.discovertuscany.com/img/florence/piazzas/piazzale-michelangelo-alba-8.jpg?w=1140&q=60&auto=enhance"></li>
+    <li><img src="http://www.wimdu.ca/blog/wp-content/uploads/2015/09/florence.jpg"></li>
+    <li><img src="http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/videos/florence_0.jpg?itok=7sWZ9tCK"></li>
+    <li><img src="https://a0.muscache.com/airbnb/guidebook/v1_florence_sightseeing_hero@2x.jpg"></li>
+    <li><img src="https://www.walkaboutflorence.com/sites/default/files/tour-cinque-terre.jpg"></li>
+    <li><img src="https://cache-graphicslib.viator.com/graphicslib/thumbs360x240/5292/SITours/small-group-wine-tasting-experience-in-the-tuscan-countryside-in-florence-213548.jpg"></li>
+    <li><img src="http://www.melindagallo.com/blog/imagesblog/img5809f55a009bb.jpg"></li>
+  </ul>
+</div>
+<script>
+
+    $(window).on("load", function() {
+        $( "#example" ).infiniteScroller();
+    } );
+</script>
+</body>
+</html>

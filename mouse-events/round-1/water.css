@@ -1,0 +1,16 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.demo{
+	background-image: url("https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13921070_10208969612510644_356246284458137804_n.jpg?oh=f2646e0f9442dbbb2758bc98529ee87a&oe=5A171AA5");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

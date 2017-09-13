@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="scroll.css">
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src='js/jquery-scroll-animate.js'></script>
+</head>
+<body>
+<div class="container">
+<div class="one">
+  <h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>Kelly McGuffog</p>
+  <h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>Sam Fox School of Design & Visual Arts</p>
+  <p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>Fall 2017</p>
+  <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13626977_1092016634177729_8631251273576304988_n.jpg?oh=6aa4c5e2436d2180ba4d6fade19aecaf&oe=5A5F440B">
+</div>
+<div class="two">
+  <h1 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.1s'>Communication Design Major</p>
+  <h2 class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.2s'>Marketing Minor</p>
+  <p class="ani" animate-effect='zoomIn' animate-duration='0.3s' animate-delay='0.3s'>But I Like To Code</p>
+  <img src="https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/13620725_1092017644177628_1018715484343213557_n.jpg?oh=2e8db9c06c87dc919c2c22b3d7e83f23&oe=5A575197">
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.container').jqueryScrollAnimate({
+  direction:true,
+  distance:0,
+  animated:'.ani'
+});
+});
+</script>
+</body>
+</html>

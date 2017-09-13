@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Water Drop</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/jquery.ripples.js"></script>
+	<link rel="stylesheet" type="text/css" href="water.css">
+</head>
+<body>
+<div class="demo">
+</div>
+ <script type="text/javascript">
+ $(document).ready(function () {
+ 
+ $('body').hover(function(){
+	try {
+		$('.demo').ripples({
+			resolution: 300,
+			perturbance: 0.04
+		});
+	}
+	catch (e) {
+		$('.error').show().text(e);
+	}
+ });
+	
+
+});
+</script>
+</body>
+</html>
