@@ -92,7 +92,7 @@ var clickCount = 0;
 		$("#"+clickedID).html("O");
 		}
 	});
-   followCursor.init();
+   // followCursor.init();
   document.body.onmousemove = followCursor.run;
 
 	});

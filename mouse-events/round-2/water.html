@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Water Drop</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<title></title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="js/jquery.ripples.js"></script>
 	<link rel="stylesheet" type="text/css" href="water.css">
 </head>
 <body>
+<audio id="one" preload="auto"><source src="sounds/water_droplet_2.mp3"></audio>
+<audio id="two" preload="auto"><source src="sounds/water_droplet_3.mp3"></audio>
 <div class="demo">
 </div>
  <script type="text/javascript">
@@ -23,8 +25,14 @@
 		$('.error').show().text(e);
 	}
  });
-	
-
+ var audio1=$('#one')[0];
+ var audio2=$('#two')[0];
+ $('body').on('click', function(){
+ 	audio1.play();
+ })
+ $('body').mouseover(function(){
+ audio2.play();
+});
 });
 </script>
 </body>
