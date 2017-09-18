@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="video.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.js"></script>
+	<script src="js/jquery.slicescreen.js"></script>
+</head>
+<body>
+<div class="fullscreen-bg">
+ <video loop autoplay poster="start.png" class="fullscreen-bg__video">
+        <source id="p1" src="video/Jay Alvarrez back HOME (Alexis Ren).mp4" type="video/mp4">
+        <source id="p2" src="video/Jay Alvarrez In California (Alexis Ren).mp4" type="video/mp4">
+        <source id="p3" src="video/Jay Alvarrez Summer 2016 (Alexis Ren).mp4" type="video/mp4">
+    </video>
+<div id="ss-pager">
+  <i id="next"></i>
+  <i id="prev"></i>
+</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+  var ss = new $.SliceScreen();
+		$('#next').click(function(event) {
+  		ss.next();
+		});
+
+		$('#prev').click(function(event) {
+ 	 	ss.prev();
+});
+});
+</script>
+</body>
+</html>

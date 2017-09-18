@@ -2,12 +2,50 @@
 <html>
 <head>
 	<title></title>
+	<link rel="stylesheet" type="text/css" href="shapes.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-	<script src="tilt.jquery.js"></script>
+	<script src="js/tilt.jquery.js"></script>
+	<script type="text/javascript" src="js/squiggle.js"></script>
 </head>
 <body>
 <div class="container">
-	
+	<div data-tilt></div>
+	<div class="c-test js-tilt">
+  		<div class="c-test-inner"></div>
+	</div>
+	<div class="lines">
+		<div class="one">
+		<div class="ellipse"></div>
+		<div class="ellipse ellipse2"></div>
+		</div><br>
+		<div class="two"></div><br>
+		<div class="three"></div><br>
+		<div class="four"></div>
+		<div class="five"></div>
+		<div class="six"></div>
+		<div class="seven"></div>
+		<div class="eight"></div>
+		<div class="nine"></div>
+		<div class="ten"></div>	
+	</div>
+	<div class="slash"></div>
+	<div class="turn"></div>
+	<div class="color"></div>
+	<div class="triangle"></div>
+	<div class="slide"></div>
 </div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		const element = $('.js-tilt').tilt();
+		$(".slash").click(function(){
+		$(this).toggleClass("slashed");
+	});
+		$(".turnbig").click(function(){
+		$(this).toggleClass("turned"); 
+
+}); 
+})
+
+</script>
 </body>
 </html>
