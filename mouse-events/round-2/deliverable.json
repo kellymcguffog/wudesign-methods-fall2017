@@ -1,0 +1,48 @@
+{
+"entrypoints": [
+{
+"name": "water",
+"file": "water.html"
+},
+{
+"name": "shapes",
+"file": "shapes.html"
+},
+{
+"name": "dots",
+"file": "dots.html"
+},
+{
+"name": "bounce",
+"file": "bounce.html"
+},
+{
+"name": "grid",
+"file": "hex.html"
+},
+{
+"name": "grid2",
+"file": "grid2.html"
+},
+{
+"name": "countdown",
+"file": "countdown.html"
+},
+{
+"name": "video",
+"file": "video.html"
+},
+{
+"name": "shortvid",
+"file": "shortvid.html"
+},
+{
+"name": "scroll",
+"file": "scroll.html"
+},
+{
+"name": "lines",
+"file": "lines.html"
+}
+]
+}

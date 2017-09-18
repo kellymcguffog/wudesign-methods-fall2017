@@ -1,0 +1,15 @@
+#arc{
+	position: relative;
+	width: 600px;
+	height: 300px;
+}
+.pixel{
+	position: absolute;
+	opacity: 0.5;
+	height: 150px;
+	width: 150px;
+	background: red;
+	border-radius: 75px;
+	top: -15px;
+	left: 185px;
+}

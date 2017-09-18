@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- <link rel="stylesheet" href="flipper.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="dots.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-cabg-cooqui.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("body").cooqui({
+  fps: 60,
+  scale: 1,
+  distance: 100,
+  background: false,
+  spacing: 50,
+  itemSize: 50,
+  itemScale: 2.0,
+  itemColors: ["#7f7fff", "#9999ff", "#b2b2ff", "#ccccff", "#e5e5ff", "#6666ff"],
+  unique: true,
+});
+    var animateMe = function(targetElement, speed){
+
+    $(targetElement).css({left:'-200px'});
+    $(targetElement).animate(
+        {
+        'left': $(document).width() + 200
+        },
+        {
+        duration: speed,
+        complete: function(){
+            animateMe(this, speed);
+            }
+        }
+    );
+
+};
+animateMe($('body'), 2000);
+});
+</script>
+</body>
+</html>

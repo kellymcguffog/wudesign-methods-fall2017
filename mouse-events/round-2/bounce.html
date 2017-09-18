@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bounce.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.path.js"></script>
+</head>
+<body>
+<div id="arc"></div>
+<script type="text/javascript">
+
+
+var SineWave = function() {
+  this.css = function(p) {
+    var s = Math.sin(p*20)
+    var x = 500 - p * 300 
+    var y = s * 50 + 150
+    var o = ((s+2)/4+0.1)
+    return {top: y + "px", left: x + "px", opacity: o}
+  } 
+};
+
+
+$().ready(function() {
+  
+
+  var Paths = {"arc":[], "bezier":[], "sine": []}
+  
+  var path_fns = {
+    arc: function(i) {
+      return new $.path.arc({
+        center: [285,185],  
+        radius: 100,  
+        start: -i*20,
+        end: i*100,
+        dir: (i%2) ? 1 : -1
+      })
+    },
+    bezier: function(i) {
+      var x = i%2 ? 1 : -1
+      return new $.path.bezier({
+        start: { x:185, y:185, angle: i*20 * x},  
+        end: {x:540,y:110, angle: i*10, length: i / 4.0}
+      })
+    },
+    sine : function() {
+      return new SineWave
+    }
+  }
+  
+  for(var type in Paths) {
+
+    for(var i=0; i<10; i++ ) {
+      if(i != 9 && type == "sine")
+        continue
+        
+      var path = path_fns[type](i)
+      Paths[type].push(path)
+
+      var css = {
+        "backgroundColor": (i%2) ? "red" : "yellow", 
+        width: 20*(i+1), 
+        height: 20*(i+1), 
+        "-moz-border-radius": 10*(i+1), 
+        "-webkit-border-radius": 10*(i+1), 
+        marginLeft: -10*(i+1), // offset the div, so center is at origin
+        marginTop: -10*(i+1) 
+      }
+
+      var $$ = $("<span class=pixel></span>").css(css)
+
+      // initialize to start
+      $$.css(path.css(1))
+      $("#" + type).append($$)     
+    }
+        
+  }
+
+  
+  $("#arc").hover(function() {
+    var i =0;
+    var type = $(this).closest("div").attr("id")
+    
+    $("#" + type + " .pixel").each(function() {
+      $(this).stop().animate({path: Paths[type][i] }, 3000)
+      i++;
+    })
+  })
+
+  });
+</script>
+</body>
+</html>
