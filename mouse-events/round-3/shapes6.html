@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="shapes6.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- <script src="js/tilt.jquery.js"></script> -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.3/svg.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<div class="container">
+<!-- 	<div data-tilt></div> -->
+<!-- 	<div class="c-test js-tilt">
+  		<div class="c-test-inner"></div> -->
+  		<div id="slash"></div>
+		<div id="color"></div>
+		<div id="triangle"></div>
+        <div id="rolling"></div>
+		<div id="corner"></div>
+		<!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-1{fill:none;stroke:#B2DFEE;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-1" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-1" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-1" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-1" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg>
+		<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-2{fill:none;stroke:#ADD8E6;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-2" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-2" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-2" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-2" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg>
+		<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-3{fill:none;stroke:#87CEEB;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-3" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-3" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-3" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-3" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg>
+		<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-4{fill:none;stroke:#A4D3EE;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-4" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-3" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-4" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-4" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg>
+		<svg id="Layer_5" data-name="Layer 5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-5{fill:none;stroke:#9AC0CD;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-5" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-5" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-5" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-5" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg>
+		<svg id="Layer_6" data-name="Layer 6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-6{fill:none;stroke:#8DB6CD;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-6" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-5" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-6" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-6" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg>
+		<svg id="Layer_7" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382.49 25.54"><defs><style>.cls-7{fill:none;stroke:#5D92B1;stroke-miterlimit:10;stroke-width:10px;}</style></defs><title>line</title><path class="cls-7" d="M19.2,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-7" d="M114.69,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-7" d="M210.17,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/><path class="cls-7" d="M305.66,35.28s23-27.54,47.74,0c0,0,27.7,28.38,47.74,0" transform="translate(-18.94 -22.7)"/></svg> -->
+		<div id="grow"></div>
+		<div id="grow2"></div>
+		<img id="patternleft" src="http://wwwcdn.printmag.com/wp-content/uploads/plaidrepeat.jpg">
+		<img id="patternright" src="https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png">
+		<img id="pattern3" src="http://1.bp.blogspot.com/-Lna6Ymmgurc/UYxWKw2RJmI/AAAAAAAABVE/1bbBjintiaU/s1600/shynD+Stripe+Pattern+Wallpaper+-+Blue+4.jpg">
+		<!-- <img id="background" src="http://1.bp.blogspot.com/-Lna6Ymmgurc/UYxWKw2RJmI/AAAAAAAABVE/1bbBjintiaU/s1600/shynD+Stripe+Pattern+Wallpaper+-+Blue+4.jpg"> -->
+		<img id="replace" src="http://www.publicdomainpictures.net/pictures/60000/velka/quatrefoil-pattern-background-pink-1375734522XyP.jpg">
+		<img id="replace2" src="http://www.designbolts.com/wp-content/uploads/2013/01/Purple-TableCloth-Seamless-Pattern.jpg">
+        <!-- <div id="fill"></div> -->
+        <img id="replace3" src="https://s-media-cache-ak0.pinimg.com/originals/b5/aa/95/b5aa95d4a623ecb90a609d5a002f286c.jpg">
+        <div id="push"></div>
+        <!-- <img id="circles" src="http://www.maternite-etoile.com/prenomdumonde/img/page01/fond.jpg"> -->
+	<!-- </div> -->
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+	// 	const element = $('.js-tilt').tilt();
+	// 	$(".slash").click(function(){
+	// 	$(this).toggleClass("slashed");
+	// });
+// 		$(".turnbig").click(function(){
+// 		$(this).toggleClass("turned"); 
+// }); 
+		setTimeout(function() {
+ 		$('.slide').fadeOut()
+		}, 1000 );
+		
+	function animateWithDelay() {
+    var purple = document.getElementById('grow');
+    purple.className = 'animated1';
+    setTimeout(function () {
+        purple.className = 'notAnimated'
+        setTimeout(animateWithDelay, 5000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+animateWithDelay();
+ function patternWithDelay() {
+     var pattern = document.getElementById('patternright');
+     pattern.className = 'noPattern';
+     setTimeout(function () {
+         pattern.className = 'animatedPattern'
+         setTimeout(patternWithDelay, 9000); // 5 second animation duration
+     }, 1000) // delay 1 second
+ }
+
+patternWithDelay();
+function dotsWithDelay() {
+    var dotpattern = document.getElementById('patternleft');
+    dotpattern.className = 'animatedDots';
+    setTimeout(function () {
+        dotpattern.className = 'noDots'
+        setTimeout(dotsWithDelay, 9000); // 5 second animation duration
+    }, 1000) // delay 1 second
+}
+dotsWithDelay();
+function blueWithDelay() {
+    var blue = document.getElementById('pattern3');
+    blue.className = 'noBlue';
+    setTimeout(function () {
+        blue.className = 'animated zoomInDown'
+        setTimeout(blueWithDelay, 5000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+blueWithDelay();
+function yellowWithDelay() {
+    var yellow = document.getElementById('grow2');
+    yellow.className = 'noYellow';
+    setTimeout(function () {
+        yellow.className = 'animatedYellow'
+        setTimeout(yellowWithDelay, 5000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+yellowWithDelay();
+function replaceWithDelay() {
+    var replace = document.getElementById('replace');
+    replace.className = 'noReplace';
+    setTimeout(function () {
+        replace.className = 'animatedReplace'
+        setTimeout(replaceWithDelay, 9000); // 5 second animation duration
+    }, 1000) // delay 1 second
+}
+
+replaceWithDelay();
+function replacedWithDelay() {
+    var replaced = document.getElementById('replace2');
+    replaced.className = 'animated flipInX';
+    setTimeout(function () {
+        replaced.className = 'notReplace'
+        setTimeout(replacedWithDelay, 7000); // 5 second animation duration
+    }, 3000) // delay 1 second
+}
+
+replacedWithDelay();
+function replacesWithDelay() {
+    var replaces = document.getElementById('replace3');
+    replaces.className = 'notReplaces';
+    setTimeout(function () {
+        replaces.className = 'animateReplaces'
+        setTimeout(replacesWithDelay, 9000); // 5 second animation duration
+    }, 1000) // delay 1 second
+}
+
+replacesWithDelay();
+function colorWithDelay() {
+    var colorful = document.getElementById('color');
+    colorful.className = 'notColored';
+    setTimeout(function () {
+        colorful.className = 'animated fadeInDown'
+        setTimeout(colorWithDelay, 5000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+colorWithDelay();
+function triangleWithDelay() {
+    var triangle = document.getElementById('triangle');
+    triangle.className = 'noTriangle';
+    setTimeout(function () {
+        triangle.className = 'animated hinge';
+        setTimeout(triangleWithDelay, 5000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+triangleWithDelay();
+function cornerWithDelay() {
+    var corner = document.getElementById('corner');
+    corner.className = 'noCorner';
+    setTimeout(function () {
+        corner.className = 'animated flipOutY';
+        setTimeout(cornerWithDelay, 5000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+cornerWithDelay();
+function slashWithDelay() {
+    var slash = document.getElementById('slash');
+    slash.className = 'noSlash';
+    setTimeout(function () {
+        slash.className = 'animatedSlash';
+        setTimeout(slashWithDelay, 3000); // 5 second animation duration
+    }, 7000) // delay 1 second
+}
+
+slashWithDelay();
+function pushWithDelay() {
+    var push = document.getElementById('push');
+    push.className = 'noPush';
+    setTimeout(function () {
+        push.className = 'animatedPush';
+        setTimeout(pushWithDelay, 7000); // 5 second animation duration
+    }, 3000) // delay 1 second
+}
+
+pushWithDelay();
+function rollingWithDelay() {
+    var rolling = document.getElementById('rolling');
+    rolling.className = 'noRolling';
+    setTimeout(function () {
+        rolling.className = 'animated jello';
+        setTimeout(rollingWithDelay, 1000); // 5 second animation duration
+    }, 5000) // delay 1 second
+}
+
+rollingWithDelay();
+// function circlesWithDelay() {
+//     var circles = document.getElementById('circles');
+//     circles.className = 'noCircles';
+//     setTimeout(function () {
+//         circles.className = 'animated lightSpeedIn';
+//         setTimeout(circlesWithDelay, 4000); // 5 second animation duration
+//     }, 6000) // delay 1 second
+// }
+
+// circlesWithDelay();
+// function fillWithDelay() {
+//     var fill = document.getElementById('fill');
+//     fill.className = 'animatedFill';
+//     setTimeout(function () {
+//         fill.className = 'noFill';
+//         setTimeout(circlesWithDelay, 4000); // 5 second animation duration
+//     }, 6000) // delay 1 second
+// }
+
+// fillWithDelay();
+// $('#color').addClass('animated bounceInLeft');
+// $('#triangle').addClass('animated slideInUp');
+});
+
+</script>
+</body>
+</html>

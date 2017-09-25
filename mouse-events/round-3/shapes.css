@@ -1,0 +1,488 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+svg{
+  width: 150px;
+  height: 150px;
+}
+#Layer_1{
+  position: absolute;
+  top: 0px;
+  right: 50px;
+  z-index: 100;
+}
+#Layer_2{
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  z-index: 100;
+}
+#Layer_3{
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  z-index: 100;
+}
+#Layer_4{
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  z-index: 100;
+}
+#Layer_5{
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  z-index: 100;
+}
+#Layer_6{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 100;
+}
+#Layer_7{
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  z-index: 100;
+}
+.cls-1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+.cls-2{
+   stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+   -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+}
+.cls-3{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+   -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+}
+.cls-4{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+   -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+}
+.cls-5{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+   -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+}
+.cls-6{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+   -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+}
+.cls-7{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 5s 1s infinite linear;
+  animation: dash 5s 1s infinite linear;
+}
+@keyframes dash {
+  from{
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.data-tilt{
+  width: 80%%;
+  height: 80%;
+}
+.c-test {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 20px solid lightgrey;
+  transform-style: preserve-3d;
+  padding: 2.25em 1.6875em;
+  box-shadow: 10px 10px 50px grey;
+}
+.c-test-inner {
+  will-change: transform;
+  transition: .15s;
+  position: absolute;
+  width: calc(100% - 450px);
+  height: calc(100% - 250px);
+  background-color: red;
+  transform: translateZ(100px) scale(0.5);
+  box-shadow: 10px 10px 50px grey;
+}
+.curve{
+  overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.slash {
+  transition-timing-function: ease-in-out;
+  transition: 0.3s;
+  background-color: pink;
+  height: 20px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  top: 350px;
+  right: 130px;
+  -webkit-animation: Slashed 5s ease infinite;
+  -moz-animation: Slashed 5s ease infinite;
+  animation: Slashed 5s ease infinite;
+  z-index: 100;
+  }
+  @-webkit-keyframes Slashed {
+  0% {
+    width: 150px;
+  }
+  50%{
+    width: 40%;
+    transform:scale(2,2);
+    transform:rotate(-110deg);
+  }
+  100%{
+    width: 150px;
+    transform:scale(1,1);
+    transform:rotate(0deg);
+  }
+}
+.turnbig{
+  transition: width 2s, height 2s, transform 2s;
+  background-color: white;
+  border:3px solid black;
+  height: 20px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 70px;
+  z-index: 1000;
+}
+.turned{
+  animation-name:box;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+.color{
+  width: 200px;
+  height: 200px;
+  background: red;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 200px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 5s ease infinite;
+  -moz-animation: Gradient 5s ease infinite;
+  animation: Gradient 5s ease infinite;
+  z-index: 100;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 200px solid green;
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  -webkit-animation: rotation 2s infinite linear;
+    -moz-animation: rotation 2s infinite linear;
+    -o-animation: rotation 2s infinite linear;
+    animation: rotation 2s infinite linear;
+    z-index: 100;
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+@-moz-keyframes rotation {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(359deg);
+    }
+}
+@-o-keyframes rotation {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to {
+        -o-transform: rotate(359deg);
+    }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.slide{
+  position: absolute;
+  bottom: 350px;
+  right: 150px;
+  background-color: purple;
+  width: 150px;
+  height: 100px;
+  transform: skew(80deg);
+  -webkit-transform: skew(80deg);
+     -moz-transform: skew(80deg);
+       -o-transform: skew(80deg);
+  -webkit-animation: slideIn 2s forwards;
+  -moz-animation: slideIn 2s forwards;
+  animation: slideIn 2s forwards;
+  z-index: 100;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.animated{
+  background-color: purple;
+  height: 250px;
+  width: 350px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+-moz-animation: cssAnimation 2s ease-in 3s forwards;
+    -webkit-animation: cssAnimation 2s ease-in 3s forwards;
+    -o-animation: cssAnimation 2s ease-in 3s forwards;
+    animation: cssAnimation 2s ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+@keyframes cssAnimation {
+    0%{
+      height:250px;
+    }
+    50% {
+        height:100%;
+        bottom: 0%;
+    }
+    100%{
+      height: 0%;
+      bottom: 100%;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    0%{
+      height:250px;
+    }
+    50% {
+        height:100%;
+    }
+    100%{
+      height: 0%;
+    }
+}
+.notAnimated{
+  opacity: 0;
+}
+.animatedYellow{
+  background-color: yellow;
+  height: 150px;
+  width: 600px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+-moz-animation: grow 2s ease-in 3s forwards;
+    -webkit-animation: grow 2s ease-in 3s forwards;
+    -o-animation: grow 2s ease-in 3s forwards;
+    animation: grow 2s ease-in 3s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+@keyframes grow {
+    0%{
+      height:150px;
+    }
+    50% {
+        height:100%;
+        top: 0%;
+    }
+    100%{
+      height: 0%;
+      top: 100%;
+    }
+}
+@-webkit-keyframes grow {
+    0%{
+      height:150px;
+    }
+    50% {
+        height:100%;
+        top: 0%;
+    }
+    100%{
+      height: 0%;
+      top: 0%;
+    }
+}
+.noYellow{
+  opacity: 0;
+}
+.animatedDots{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 350px;
+  width: auto;
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.noDots{
+  opacity: 0;
+}
+.animatedPattern{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  height: auto;
+  width:600px;
+  animation: slanted 2s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes slanted{
+  from{ bottom: 0; right: 0; }
+  to{top: 0; left: 0;}
+}
+.noPattern{
+  opacity: 0;
+}
+.animatedBlue{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.noBlue{
+  opacity: 0;
+}
+#background{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.animatedReplace{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 350px;
+  height: auto;
+}
+.noReplace{
+  opacity: 0;
+}
+.animateReplace{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+  height: auto;
+}
+.notReplace{
+  opacity: 0;
+}
