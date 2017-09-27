@@ -14,10 +14,13 @@
 <body>
     <div class="background"></div>
     <div class="text">
+    <audio id="spinning" autoplay preload="auto"><source src="223784__sonicboom-sfx__robtic-spinning-motion.wav"></audio>
         <h1> INTERACTIVE DESIGN</h1>
         <p>welcome to my creation</p>
         <button>ENTER</button>
+        <audio id="boing" preload="auto"><source src="Boing-sound.mp3"></audio>
     </div>
+    <audio id="explosion" preload="auto"><source src="Explosion+3.mp3"></audio>
     <div class="container">
   		<div id="slash"></div>
 		<div id="color"></div>
@@ -219,7 +222,9 @@
         $('h2').hover(function(){
             $(this).addClass('animated tada');
         });
+        var audio1=$('#explosion')[0];
                $('.container').click(function(){
+            audio1.play();
                     $(this).hide('explode', { pieces: 8 }, 2000).show(2000, function() {
                 $(this).animate({width: 800, height: 500}, 2000);
                })
@@ -229,7 +234,14 @@
         $('.background').fancyBackground({
             colors : ['#D6EAF8  ', '#5DADE2', '#5D6D7E', 'D5DBDB  ', '#E8DAEF', '#76D7C4']
         });
-    });
+
+    var audio2=$('#boing')[0];
+               $('button').click(function(){
+            audio2.play();
+        });
+
+ })
+   
 
 </script>
 </body>
