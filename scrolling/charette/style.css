@@ -1,0 +1,25 @@
+body{
+	height: 1000000px;
+}
+.one{
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	position: fixed;
+}
+.two{
+	color: black;
+	font-size: 50px;
+	font-family: sans-serif;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+
+}
+.three{
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	height: 250px;
+	width: auto;
+}
