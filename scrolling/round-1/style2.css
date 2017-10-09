@@ -1,0 +1,14 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.gradient{
+    height: 100%;
+    width: 100%;
+    background: -webkit-radial-gradient(red, green, blue); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(red, green, blue); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(red, green, blue); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(red, green, blue); /* Standard syntax (must be last) */
+}
