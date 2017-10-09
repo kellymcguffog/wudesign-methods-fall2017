@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="parlx.js"></script>
+</head>
+<body class="move">
+<section class="parallax">
+  <div class="bgimg" style="background-image: url(https://static.pexels.com/photos/89095/pexels-photo-89095.jpeg);">
+  <div class="red" data-0="height:500px; left:600px; transform:rotate(83deg); top:-65px;"data-50="height:100px; left:740px; transform:rotate(25deg); top:55px;"data-100="height:200px; left:790px; transform:rotate(125deg); top:-30px;" data-150="height:100px; left:890px; transform:rotate(3deg); top:140px;" data-200="height:300px; left:1030px; transform:rotate(100deg); top:140px;" data-250="height:400px; left:1030px; transform:rotate(0deg); top:80px;"></div>
+  </div>
+</section>
+<script type="text/javascript" src="skrollr.js"></script>
+<script>
+	var s = skrollr.init();
+	$(window).on("load resize scroll", function() {
+  $('.bgimg').parlx({
+    speed: 0.9
+  });
+});
+	</script>
+</body>
+</html>
