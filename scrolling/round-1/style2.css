@@ -12,3 +12,624 @@ body{
     background: -moz-radial-gradient(red, green, blue); /* For Firefox 3.6 to 15 */
     background: radial-gradient(red, green, blue); /* Standard syntax (must be last) */
 }
+.circle{
+    width: 100px;
+    height: 100px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    top: 300px;
+    left: 600px;
+    position: fixed;
+    z-index: 100;
+}
+.circle2{
+    width: 200px;
+    height: 200px;
+    background: white;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    top: 250px;
+    left: 550px;
+    position: fixed;
+    z-index: 90;
+}
+.circle3{
+    width: 300px;
+    height: 300px;
+    background: black;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    top: 200px;
+    left: 500px;
+    position: fixed;
+    z-index: 80;
+}
+.circle4{
+    width: 400px;
+    height: 400px;
+    background: white;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    top: 150px;
+    left: 450px;
+    position: fixed;
+    z-index: 70;
+}
+.circle5{
+    width: 500px;
+    height: 500px;
+    background: black;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    top: 100px;
+    left: 400px;
+    position: fixed;
+    z-index: 60;
+}
+.circle6{
+    width: 600px;
+    height: 600px;
+    background: white;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    top: 50px;
+    left: 350px;
+    position: fixed;
+    z-index: 50;
+}
+.circle7{
+    width: 700px;
+    height: 700px;
+    background: black;
+    -moz-border-radius: 350px;
+    -webkit-border-radius: 350px;
+    border-radius: 350px;
+    top: 0px;
+    left: 300px;
+    position: fixed;
+    z-index: 40;
+}
+.circle8{
+    background: white;
+    position: fixed;
+    top: 300px;
+    left: 600px;
+    position: fixed;
+    z-index: 1000;
+}
+.circle9{
+    width: 800px;
+    height: 800px;
+    background: white;
+    -moz-border-radius: 400px;
+    -webkit-border-radius: 400px;
+    border-radius: 400px;
+    top: -50px;
+    left: 250px;
+    position: fixed;
+    z-index: 30;
+}
+.circle10{
+    width: 900px;
+    height: 900px;
+    background: black;
+    -moz-border-radius: 450px;
+    -webkit-border-radius: 450px;
+    border-radius: 450px;
+    top: -100px;
+    left: 200px;
+    position: fixed;
+    z-index: 20;
+}
+.circle11{
+    width: 1000px;
+    height: 1000px;
+    background: white;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    top: -150px;
+    left: 150px;
+    position: fixed;
+    z-index: 10;
+}
+.circle12{
+    width: 1100px;
+    height: 1100px;
+    background: black;
+    -moz-border-radius: 550px;
+    -webkit-border-radius: 550px;
+    border-radius: 550px;
+    top: -200px;
+    left: 100px;
+    position: fixed;
+    z-index: 9;
+}
+.circle13{
+    width: 1200px;
+    height: 1200px;
+    background: white;
+    -moz-border-radius: 600px;
+    -webkit-border-radius: 600px;
+    border-radius: 600px;
+    top: -250px;
+    left: 50px;
+    position: fixed;
+    z-index: 8;
+}
+.circle14{
+    width: 1300px;
+    height: 1300px;
+    background: black;
+    -moz-border-radius: 650px;
+    -webkit-border-radius: 650px;
+    border-radius: 650px;
+    top: -300px;
+    left: 0px;
+    position: fixed;
+    z-index: 7;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background: black;
+    top: 300px;
+    left: 600px;
+    position: fixed;
+    z-index: 100;
+}
+.square2{
+    width: 200px;
+    height: 200px;
+    background: white;
+    top: 250px;
+    left: 550px;
+    position: fixed;
+    z-index: 90;
+}
+.square3{
+    width: 300px;
+    height: 300px;
+    background: black;
+    top: 200px;
+    left: 500px;
+    position: fixed;
+    z-index: 80;
+}
+.square4{
+    width: 400px;
+    height: 400px;
+    background: white;
+    top: 150px;
+    left: 450px;
+    position: fixed;
+    z-index: 70;
+}
+.square5{
+    width: 500px;
+    height: 500px;
+    background: black;
+    top: 100px;
+    left: 400px;
+    position: fixed;
+    z-index: 60;
+}
+.square6{
+    width: 600px;
+    height: 600px;
+    background: white;
+    top: 50px;
+    left: 350px;
+    position: fixed;
+    z-index: 50;
+}
+.square7{
+    width: 700px;
+    height: 700px;
+    background: black;
+    top: 0px;
+    left: 300px;
+    position: fixed;
+    z-index: 40;
+}
+.square8{
+    background: white;
+    position: fixed;
+    top: 300px;
+    left: 600px;
+    position: fixed;
+    z-index: 1000;
+}
+.square9{
+    width: 800px;
+    height: 800px;
+    background: white;
+    top: -50px;
+    left: 250px;
+    position: fixed;
+    z-index: 30;
+}
+.square10{
+    width: 900px;
+    height: 900px;
+    background: black;
+    top: -100px;
+    left: 200px;
+    position: fixed;
+    z-index: 20;
+}
+.square11{
+    width: 1000px;
+    height: 1000px;
+    background: white;
+    top: -150px;
+    left: 150px;
+    position: fixed;
+    z-index: 10;
+}
+.square12{
+    width: 1100px;
+    height: 1100px;
+    background: black;
+    top: -200px;
+    left: 100px;
+    position: fixed;
+    z-index: 9;
+}
+.square13{
+    width: 1200px;
+    height: 1200px;
+    background: white;
+    top: -250px;
+    left: 50px;
+    position: fixed;
+    z-index: 8;
+}
+.square14{
+    width: 1300px;
+    height: 1300px;
+    background: black;
+    top: -300px;
+    left: 0px;
+    position: fixed;
+    z-index: 7;
+}
+.grow{
+    background: repeating-radial-gradient(red, yellow 10%, green 15%);
+    position: fixed;
+    top: 300px;
+    left: 500px;
+}
+.lines{
+    height: 100%;
+    width: 50px;
+    background: #ccccff;
+}
+.one{
+    position: fixed;
+    top: 0;
+    left: 0px;
+}
+.two{
+    position: fixed;
+    top: 0;
+    left: 100px;
+}
+.three{
+    position: fixed;
+    top: 0;
+    left: 200px;
+}
+.four{
+    position: fixed;
+    top: 0;
+    left: 300px;
+}
+.five{
+    position: fixed;
+    top: 0;
+    left: 400px;
+}
+.six{
+    position: fixed;
+    top: 0;
+    left: 500px;
+}
+.seven{
+    position: fixed;
+    top: 0;
+    left: 600px;
+}
+.eight{
+    position: fixed;
+    top: 0;
+    left: 700px;
+}
+.nine{
+    position: fixed;
+    top: 0;
+    left: 800px;
+}
+.ten{
+    position: fixed;
+    top: 0;
+    left: 900px;
+}
+.eleven{
+    position: fixed;
+    top: 0;
+    left: 1000px;
+}
+.twelve{
+    position: fixed;
+    top: 0;
+    left: 1100px;
+}
+.thirteen{
+    position: fixed;
+    top: 0;
+    left: 1200px;
+}
+.fourteen{
+    position: fixed;
+    top: 0;
+    left: 1300px;
+}
+.fifteen{
+    position: fixed;
+    top: 0;
+    left: 1400px;
+}
+.lined{
+    background: #e5e5ff;
+    width: 100%;
+    height: 100%;
+}
+.ring{
+    background: #EBF5FB;
+    position: fixed;
+    top: 300px;
+    left: 600px;
+    position: fixed;
+    z-index: 1000;
+}
+.ring1{
+    width: 100px;
+    height: 100px;
+    background: #EAF2F8;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    top: 300px;
+    left: 600px;
+    position: fixed;
+    z-index: 100;
+    opacity: .9;
+}
+.ring2{
+    width: 200px;
+    height: 200px;
+    background: #D6EAF8;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    top: 250px;
+    left: 550px;
+    position: fixed;
+    z-index: 90;
+    opacity: .8;
+}
+.ring3{
+    width: 300px;
+    height: 300px;
+    background: #AED6F1;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    top: 200px;
+    left: 500px;
+    position: fixed;
+    z-index: 80;
+    opacity: .8;
+}
+.ring4{
+    width: 400px;
+    height: 400px;
+    background: #85C1E9;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    top: 150px;
+    left: 450px;
+    position: fixed;
+    z-index: 70;
+    opacity: .7;
+}
+.ring5{
+    width: 500px;
+    height: 500px;
+    background: #5DADE2;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    top: 100px;
+    left: 400px;
+    position: fixed;
+    z-index: 60;
+    opacity: .6;
+}
+.ring6{
+    width: 600px;
+    height: 600px;
+    background: #3498DB;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    top: 50px;
+    left: 350px;
+    position: fixed;
+    z-index: 50;
+    opacity: .5;
+}
+.ring7{
+    width: 700px;
+    height: 700px;
+    background: #2E86C1;
+    -moz-border-radius: 350px;
+    -webkit-border-radius: 350px;
+    border-radius: 350px;
+    top: 0px;
+    left: 300px;
+    position: fixed;
+    z-index: 40;
+    opacity: .4;
+}
+.ring8{
+    width: 800px;
+    height: 800px;
+    background: #2874A6;
+    -moz-border-radius: 400px;
+    -webkit-border-radius: 400px;
+    border-radius: 400px;
+    top: -50px;
+    left: 250px;
+    position: fixed;
+    z-index: 30;
+    opacity: .3;
+}
+.ring9{
+    width: 900px;
+    height: 900px;
+    background: #21618C;
+    -moz-border-radius: 450px;
+    -webkit-border-radius: 450px;
+    border-radius: 450px;
+    top: -100px;
+    left: 200px;
+    position: fixed;
+    z-index: 20;
+    opacity: .2;
+}
+.ring10{
+    width: 1000px;
+    height: 1000px;
+    background: #1B4F72;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    top: -150px;
+    left: 150px;
+    position: fixed;
+    z-index: 10;
+    opacity: .1;
+}
+.ring11{
+    width: 1100px;
+    height: 1100px;
+    background: #1F618D;
+    -moz-border-radius: 550px;
+    -webkit-border-radius: 550px;
+    border-radius: 550px;
+    top: -200px;
+    left: 100px;
+    position: fixed;
+    z-index: 9;
+    opacity: .05;
+}
+.ring12{
+    width: 1200px;
+    height: 1200px;
+    background: #1A5276;
+    -moz-border-radius: 600px;
+    -webkit-border-radius: 600px;
+    border-radius: 600px;
+    top: -250px;
+    left: 50px;
+    position: fixed;
+    z-index: 8;
+    opacity: .03;
+}
+.ring13{
+    width: 1300px;
+    height: 1300px;
+    background: #154360;
+    -moz-border-radius: 650px;
+    -webkit-border-radius: 650px;
+    border-radius: 650px;
+    top: -300px;
+    left: 0px;
+    position: fixed;
+    z-index: 7;
+    opacity: .02;
+}
+.parallax {
+  z-index: 10;
+  position: relative;
+  top: 150px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.bgimg {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.move{
+    height: 1000px;
+}
+.red{
+    width: 5px;
+    height: 500px;
+    background: red;
+    position: absolute;
+    top: -65px;
+    left: 600px;
+    transform: rotate(83deg);
+}
+.cat{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.box{
+    position: fixed;
+}
+.uno{
+    top: 0;
+}
+.dos{
+    top: 10%;
+}
+.tres{
+    top:20%;
+}
+.quatro{
+    top: 30%;
+}
+.cinco{
+    top: 40%;
+}
+.seis{
+    top: 50%;
+}
+.siete{
+    top: 60%;
+}
+.ocho{
+    top: 70%;
+}
+.nueve{
+    top: 80%;
+}
+.diez{
+    top: 90%;
+}
