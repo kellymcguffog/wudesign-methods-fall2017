@@ -1,0 +1,89 @@
+body{
+	width: 100%;
+	height: 1000px;
+	margin: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+.demo{
+	background-image: url("https://ctd-thechristianpost.netdna-ssl.com/en/full/50895/peaceful-waters.jpg");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+}
+.beach{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.jump{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.fall{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.mountain{
+	width: auto;
+	height: 100%;
+	position: fixed;
+}
+.crash{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.birds{
+	position: fixed;
+	width: 200px;
+	height: auto;
+}
+.cab{
+	position: fixed;
+	height: auto;
+	z-index: 1;
+}
+.car{
+	position: fixed;
+	height: auto;
+	z-index: 2;
+}
+.man{
+	position: fixed;
+	height: auto;
+	width: 10%;
+	top: 500px;
+	left: 300px;
+	transform: scale(-1, 1);
+	z-index: 0;
+}
+.girl{
+	position: fixed;
+	height: auto;
+	width: 40%;
+
+}
+.walking{
+	position: fixed;
+	height: auto;
+	width: 100%;
+}
+.ski{
+	position: fixed;
+	height: auto;
+	width: 100%;
+	transform: scale(-1, 1);
+}
+.sail{
+	position: fixed;
+	height: auto;
+	width: 200px;
+}
