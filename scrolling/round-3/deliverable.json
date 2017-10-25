@@ -1,0 +1,44 @@
+{
+"entrypoints": [
+{
+"name": "1",
+"file": "index.html"
+},
+{
+"name": "2",
+"file": "two.html"
+},
+{
+"name": "3",
+"file": "three.html"
+},
+{
+"name": "4",
+"file": "four.html"
+},
+{
+"name": "5",
+"file": "five.html"
+},
+{
+"name": "6",
+"file": "six.html"
+},
+{
+"name": "7",
+"file": "seven.html"
+},
+{
+"name": "8",
+"file": "eight.html"
+},
+{
+"name": "9",
+"file": "nine.html"
+},
+{
+"name": "10",
+"file": "ten.html"
+}
+]
+}
