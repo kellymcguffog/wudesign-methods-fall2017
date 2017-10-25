@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img class="city" src="http://bossfight.co/wp-content/uploads/2016/10/boss-fight-free-high-quality-stock-images-photos-photography-city-street.jpg">
+		<img class="cab" data-0="width:20%; top:500px; left:300px;" data-100="width:15%; left:200px; top:500px;" data-350="width:0%; top:520px; left:600px;" src="images/c012fd1ad093fd600e843b2f0961756a.png">
+		<img class="car" data-100="width:20%; top:530px; left:350px;" data-350="width:0%; left:650px; top:520px;" src="images/d60ebc75c6ec7f9411bb7f89e8eeaca2-Exterior.png" >
+		<img class="car" data-200="width:20%; top:500px; left:600px;" data-400="width:0%; left:650px; top:520px;" src="images/2013-BMW-M5-rear-view.png" >
+		<img class="car" data-50="width:20%; top:340px; left:450px;" data-200="width:0%; left:680px; top:500px;" src="images/3579.png" >
+		<img class="car" data-500="width:20%; top:530px; left:400px;" data-700="width:0%; left:600px; top:520px;" src="images/2010-suzuki-grand-vitara-2wd-4-door-i4-auto-xsport-rear-exterior-view_100301194_l.png" >
+		<img class="car" data-300="width:20%; top:530px; left:550px;" data-500="width:0%; left:630px; top:520px;" src="images/cars-back-side-background-wallpaper-2-desktop-bmw-on-camelback-car-reviews-cars-back-side-background-wallpaper-high-quality-of-iphone-ac-schnitzer-acs.png" >
+		<img class="car" data-600="width:20%; top:500px; left:200px;" data-800="width:0%; left:630px; top:520px;" src="images/bus_back.png" >
+		<img class="car" data-400="width:20%; top:540px; left:650px;" data-600="width:0%; left:630px; top:520px;" src="images/New-2013-Cadillac-XTS-back-view.png" >
+		<img class="car" data-600="width:20%; top:520px; left:750px;" data-800="width:0%; left:600px; top:520px;" src="images/Keelung_City_Bus_261-FQ_20101110.png" >
+		<img class="car" data-700="width:13%; top:590px; left:850px;" data-900="width:0%; left:600px; top:520px;" src="images/PoliceCarRear2.png" >
+		<img data-0="display:block;" data-100="display:none;" class="man" src="images/man.png">
+	</div>
+	<script type="text/javascript">skrollr.init({
+		render: function(data) {
+            //Loop
+            if(data.curTop === data.maxTop) {
+                this.setScrollTop(0, true);
+            }
+        }
+});
+	$(document).ready(function(){
+		$(window).scroll(function (event) {
+        var sc = $(window).scrollTop();
+    })
+
+	})
+		</script>
+	<script type="text/javascript" src="skrollr.js"></script>
+	<script>
+		var s = skrollr.init();
+	</script>
+</body>
+</html>

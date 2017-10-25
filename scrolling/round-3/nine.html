@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img class="city" src="http://bossfight.co/wp-content/uploads/2016/10/boss-fight-free-high-quality-stock-images-photos-photography-city-street.jpg">
+		<img class="cab" data-0="width:30%; top:500px; left:300px; opacity:0;" data-5="width:20%; top:500px; left:300px; opacity:1;" data-100="width:15%; left:200px; top:500px; opacity:1;" data-350="width:0%; top:520px; left:600px; opacity:1;" src="images/c012fd1ad093fd600e843b2f0961756a.png">
+		<img class="car" data-95="width:40%; top:530px; left:350px; opacity:0;"data-100="width:20%; top:530px; left:350px; opacity:1;" data-350="width:0%; left:650px; top:520px; opacity:1;" src="images/d60ebc75c6ec7f9411bb7f89e8eeaca2-Exterior.png" >
+		<img class="car" data-195="width:40%; top:500px; left:600px; opacity:0;" data-200="width:20%; top:500px; left:600px; opacity:1;" data-400="width:0%; left:650px; top:520px; opacity:1;" src="images/2013-BMW-M5-rear-view.png" >
+		<img class="car" data-45="width:40%; top:340px; left:450px; opacity:0;"data-50="width:20%; top:340px; left:450px; opacity:1;" data-200="width:0%; left:680px; top:500px; opacity:1;" src="images/3579.png" >
+		<img class="car" data-495="width:40%; top:530px; left:400px; opacity:0;" data-500="width:20%; top:530px; left:400px; opacity:1;" data-700="width:0%; left:600px; top:520px; opacity:1;" src="images/2010-suzuki-grand-vitara-2wd-4-door-i4-auto-xsport-rear-exterior-view_100301194_l.png" >
+		<img class="car" data-295="width:40%; top:530px; left:550px; opacity:0;"data-300="width:20%; top:530px; left:550px; opacity:1;" data-500="width:0%; left:630px; top:520px; opacity:1;" src="images/cars-back-side-background-wallpaper-2-desktop-bmw-on-camelback-car-reviews-cars-back-side-background-wallpaper-high-quality-of-iphone-ac-schnitzer-acs.png" >
+		<img class="car" data-595="width:40%; top:500px; left:200px; opacity:0;"data-600="width:20%; top:500px; left:200px; opacity:1;" data-800="width:0%; left:630px; top:520px; opacity:1;" src="images/bus_back.png" >
+		<img class="car" data-395="width:40%; top:540px; left:650px; opacity:0;" data-400="width:20%; top:540px; left:650px; opacity:1;" data-600="width:0%; left:630px; top:520px; opacity:1;" src="images/New-2013-Cadillac-XTS-back-view.png" >
+		<img class="car" data-595="width:40%; top:520px; left:750px; opacity:0;"data-600="width:20%; top:520px; left:750px; opacity:1;" data-800="width:0%; left:600px; top:520px; opacity:1;" src="images/Keelung_City_Bus_261-FQ_20101110.png" >
+		<img class="car" data-695="width:35%; top:590px; left:850px; opacity:0;"data-700="width:13%; top:590px; left:850px; opacity:1;" data-900="width:0%; left:600px; top:520px; opacity:1;" src="images/PoliceCarRear2.png" >
+		<img data-0="display:block;" data-100="display:none;" class="man" src="images/man.png">
+		<img data-0="left:350px; top:10px; opacity:0;" data-5="left:350px; top:10px; opacity:1;" data-500="left:640px; top:10px; opacity:0;" class="plane" src="images/plane.png">
+		<img data-0="left:550px; top:30px; opacity:1;" data-900="left:640px; top:300px; opacity:0;" class="sun" src="images/lens-flare-yellow.png">
+	</div>
+	<script type="text/javascript">skrollr.init({
+		render: function(data) {
+            //Loop
+            if(data.curTop === data.maxTop) {
+                this.setScrollTop(0, true);
+            }
+        }
+});
+	$(document).ready(function(){
+		$(window).scroll(function (event) {
+        var sc = $(window).scrollTop();
+    })
+
+	})
+		</script>
+	<script type="text/javascript" src="skrollr.js"></script>
+	<script>
+		var s = skrollr.init();
+	</script>
+</body>
+</html>
