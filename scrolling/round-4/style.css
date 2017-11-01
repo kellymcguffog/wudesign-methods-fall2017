@@ -1,0 +1,127 @@
+body{
+	width: 100%;
+	height: 1900px;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1172px;
+	height: 700px;
+	position: fixed;
+	right:50%;
+	top: 50%;
+    margin-right:-586px;
+    margin-top: -350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url(https://media.giphy.com/media/10539PNHnSuPTi/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 65%;
+}
+.city{
+	width: 100%;
+	height: 100%;
+}
+.cab{
+	position: absolute;
+	height: auto;
+	width: 500px;
+	top: 400px;
+	left: 300px;
+	height: auto;
+	z-index: 2;
+}
+.car{
+	position: absolute;
+	height: auto;
+	z-index: 3;
+}
+.police{
+	position: absolute;
+	height: auto;
+	z-index: 2;
+}
+.bus{
+	position: absolute;
+	height: auto;
+	z-index: 2;
+}
+.man{
+	position: absolute;
+	height: auto;
+	width: 10%;
+	top: 500px;
+	left: 200px;
+	transform: scale(-1, 1);
+	z-index: 0;
+}
+.plane{
+	position: absolute;
+	width: 100px;
+	height: auto;
+}
+.sun{
+	position: absolute;
+	width: 100px;
+	height: auto;
+}
+.red{
+	position: absolute;
+	width: 10px;
+	height: auto;
+	top: 423px;
+	left: 597px;
+}
+.redtwo{
+	position: absolute;
+	width: 10px;
+	height: auto;
+	top: 420px;
+	left: 550px;
+}
+.green{
+	position: absolute;
+	width: 10px;
+	height: auto;
+	top: 423px;
+	left: 597px;
+}
+.greentwo{
+	position: absolute;
+	width: 10px;
+	height: auto;
+	top: 420px;
+	left: 550px;
+}
+h1{
+	font-size: 60px;
+	font-family: sans-serif;
+	color: white;
+	z-index: 1000;
+	left: 0;
+   right: 0;
+   margin: 0 auto;
+   position: absolute;
+   top: 230px;
+   display:flex;
+   justify-content: center;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+	z-index: 1000;
+	position: absolute;
+	left: 0;
+   right: 0;
+   margin: 0 auto;
+   position: absolute;
+   top: 300px;
+   display:flex;
+   justify-content: center;
+	text-transform: uppercase;
+}
+.text{
+	text-shadow: 4px 6px 5px black;
+}
