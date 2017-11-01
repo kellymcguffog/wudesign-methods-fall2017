@@ -7,8 +7,9 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 </head>
 <body>
+<div class="load"></div>
 	<div class="container">
-		<audio autoplay loop><source src="salamisound-5684171-road-with-cars-different.mp3"></audio>
+		<audio class="noise" loop><source src="salamisound-5684171-road-with-cars-different.mp3"></audio>
 		<img class="city" src="city.png">
 		<img class="red" data-0="display:block;" data-690="display:none;" data-1170="display:block;" src="images/red.png">
 		<img class="redtwo" data-0="display:block;" data-690="display:none;" data-1170="display:block;" src="images/red.png">
@@ -17,7 +18,7 @@
 		
 		<img class="cab" data-0="width:8%; left:440px; top:470px;" data-650="width:8%; left:440px; top:470px;" data-1000="width:0%; top:490px; left:550px;" src="images/c012fd1ad093fd600e843b2f0961756a.png">
 
-		<audio autoplay ><source src="taxiwhistl_xdkqls35.mp3"></audio>
+		<audio class="taxi"><source src="taxiwhistl_xdkqls35.mp3"></audio>
 
 
 		<h1 class="text"data-0="opacity:1;" data-150="opacity:0;">Welcome to New York</h1>
@@ -84,6 +85,15 @@
 		<img data-0="left:300px; top:10px; opacity:0;"data-350="left:320px; top:10px; opacity:1;" data-700="left:630px; top:10px; opacity:0;" class="plane" src="images/plane.png">
 		<img data-0="left:450px; top:30px; opacity:1;" data-1200="left:600px; top:300px; opacity:0;" class="sun" src="images/lens-flare-yellow.png">
 	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(window).on('load',function(){
+				$(".load").css('visibility', 'hidden');
+				$('.noise').get(0).play();
+				$('.taxi').get(0).play();
+			})
+		})
+	</script>
 	<script type="text/javascript">skrollr.init({
 
 		
