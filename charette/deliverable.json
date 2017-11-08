@@ -1,0 +1,20 @@
+{
+"entrypoints": [
+{
+"name": "shape",
+"file": "index.html"
+},
+{
+"name": "word",
+"file": "word.html"
+},
+{
+"name": "paragraph",
+"file": "paragraph.html"
+},
+{
+"name": "image",
+"file": "image.html"
+}
+]
+}
