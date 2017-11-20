@@ -1,0 +1,131 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(270deg, #33cfb9, #3370cf, #7233cf);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 4s ease infinite;
+-moz-animation: AnimationName 4s ease infinite;
+animation: AnimationName 4s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+}
+h1{
+	font-family: sans-serif;
+	letter-spacing: 50px;
+	font-size: 150px;
+	color:white;
+	text-align: center;
+}
+@media(min-width: 600px) and (max-width: 800px){
+	h1{
+	letter-spacing: 40px;
+	font-size: 100px;
+	}
+	body{
+		background: linear-gradient(270deg, #33cfb9, #3370cf, #7233cf);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 2s ease infinite;
+-moz-animation: AnimationName 2s ease infinite;
+animation: AnimationName 2s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+	}
+
+}
+@media(min-width: 400px) and (max-width: 600px){
+	h1{
+	letter-spacing: 30px;
+	font-size: 80px;
+	}
+	body{
+		background: linear-gradient(270deg, #33cfb9, #3370cf, #7233cf);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 1s ease infinite;
+-moz-animation: AnimationName 1s ease infinite;
+animation: AnimationName 1s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+	}
+
+}
+@media(min-width: 200px) and (max-width: 400px){
+	h1{
+	letter-spacing: 20px;
+	font-size: 50px;
+	}
+	body{
+		background: linear-gradient(270deg, #33cfb9, #3370cf, #7233cf);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 0.5s ease infinite;
+-moz-animation: AnimationName 0.5s ease infinite;
+animation: AnimationName 0.5s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+	}
+}
