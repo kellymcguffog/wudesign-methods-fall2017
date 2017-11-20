@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="ten.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="granim.min.js"></script>
+</head>
+<body>
+<canvas id="canvas-image"></canvas>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var granimInstance = new Granim({
+    element: '#canvas-image',
+    direction: 'top-bottom',
+    opacity: [1, .5, 0],
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#485563', '#29323c', '#29323c'],
+                ['#00c6ff', '#0072ff', '#0072ff']
+            ],
+            transitionSpeed: 10000
+        }
+    }
+});
+	});
+</script>
+</body>
+</html>
