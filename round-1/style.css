@@ -1,166 +1,43 @@
 body{
-	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
-div{
-	margin: 5em auto;
-	text-align: center;
+.container{
+	width: 100%;
+	height: 100%;
 }
-button{
-	background-color: white;
-	border:3px solid black;
-	height: 20px;
-	width: 150px;
-	padding: 20px;
-	font-family: 'Open Sans', sans-serif;
-	border-radius: 5px;
-	text-align: center;
-
+img{
+	width: 10%;
+	height: auto;
+	display: inline-block;
+	margin: .25%;
 }
-.big-blue {
-    width: 200px;
-    height: 200px;
-    background-color: #00f;
-  }
-.drop{
-	padding: 20px;
-}
-.drop{
-	padding: 50px;
+.second, .third{
 	display: none;
 }
-.turn{
-    margin:30px;
-    perspective: 500;
-    -webkit-perspective: 500;
-    -moz-perspective: 500;
-    -ms-perspective: 500;
-    -o-perspective: 500;
-    width:200px;
-    height:200px;
-    background-color:#59A3FF;
-    transform-style:preserve-3d;
-    -webkit-transform-style:preserve-3d;
-    -moz-transform-style:preserve-3d;
-    -o-transform-style:preserve-3d;
-    position:absolute;
-    cursor:pointer;
-    /* Animate the transitions */
-    -webkit-transition:0.8s; text-align:center;
-    -moz-transition:0.8s; text-align:center;
-    -ms-transition:0.8s; text-align:center;
-    -o-transition:0.8s; text-align:center;
-    transition:0.8s; text-align:center;
+@media(min-width: 600px) and (max-width: 800px){
+	.second{
+		display: inline-block;
+		width: 10%;
+		height: auto;
+		margin: .25%;
+	}
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen{
+		display: none;
+	}
 
 }
+@media(min-width: 300px) and (max-width: 600px){
+	.third{
+		display: inline-block;
+		width: 10%;
+		height: auto;
+		margin: .25%;
+	}
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .second{
+		display: none;
+	}
 
-.card{
-  transform:rotateY(180deg) scale(1.2,1.2);
-  -webkit-transform:rotateY(180deg) scale(1.2,1.2);
-  -moz-transform:rotateY(180deg);
-  -o-transform:rotateY(180deg);
-  -ms-transform:rotateY(180deg);
-  background-color:#FF5959;
-
-}
-.four{
-	height: 200px;
-}
-.switch{
-	border: 5px solid coral;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 5s infinite;
-}
-@-webkit-keyframes mymove {
-    50% {border-color: lightblue;}
-}
-
-/* Standard syntax */
-@keyframes mymove {
-    50% {border-color: lightblue;}
-}
-.colors{
-	background-color: coral;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymover 5s infinite;
-}
-@-webkit-keyframes mymover {
-    50% {background-color: lightblue;}
-}
-
-/* Standard syntax */
-@keyframes mymover {
-    50% {background-color: lightblue;}
-}
-.title {
-	text-align: center;
-	font-size: 36px;
-}
-.grid-box {
-	border: blue 1px solid;
-	height: 100px;
-}
-.row div, .row{
-	margin: 0;
-}
-.letter {
-	font-size: 36px;
-	text-align: center;
-	vertical-align: middle;
-}
-#one{
-	width: auto;
-	display: inline-block;
-}
-#two{
-	width: auto;
-	display: inline-block;
-}
-#three{
-	width: auto;
-	display: inline-block;
-}
-#four{
-	width: auto;
-	display: inline-block;
-}
-#five{
-	width: auto;
-	display: inline-block;
-}
-#six{
-	width: auto;
-	display: inline-block;
-}
-#seven{
-	width: auto;
-	display: inline-block;
-}
-#eight{
-	width: auto;
-	display: inline-block;
-}
-#nine{
-	width: auto;
-	display: inline-block;
-}
-.blink{
-	color: coral;
-    -webkit-animation: mymoves 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymoves 5s infinite;
-}
-@-webkit-keyframes mymoves {
-    50% {color: lightblue;}
-}
-
-/* Standard syntax */
-@keyframes mymoves {
-    50% {color: lightblue;}
-}
-.tooltip span {
-    display:none;
-}
-.tooltip:hover span {
-    display:block;
-    position:fixed;
-    overflow:hidden;
 }
