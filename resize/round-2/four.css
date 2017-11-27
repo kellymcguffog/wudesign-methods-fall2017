@@ -1,0 +1,196 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 24%;
+	height: auto;
+	display: inline-block;
+	margin: .25%;
+}
+.one{
+	background-image: url("freck.png");
+	background-size: 700px 354px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -135px 0px;
+	display: inline-block;
+}
+.two{
+	background-image: url("263101ddfbb9ce0f41bd74b9727d3a73.jpg");
+	background-size: 564px 844px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -112px -327px;
+	display: inline-block;
+}
+.three{
+	background-image: url("asboy.png");
+	background-size: 700px 847px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -311px -229px;
+	display: inline-block;
+}
+.four{
+	background-image: url("81499cfe3246ac61bbb7011910286378.jpg");
+	background-size: 500px 595px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -340px -73px;
+	display: inline-block;
+}
+.five{
+	background-image: url("freck.png");
+	background-size: 700px 354px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -565px -18px;
+	display: inline-block;
+}
+.six{
+	background-image: url("1.jpg");
+	background-size: 852px 480px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -177px -225px;
+	display: inline-block;
+}
+.seven{
+	background-image: url("portraits-of-strangers-9391.jpg");
+	background-size: 1080px 650px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -398px -249px;
+	display: inline-block;
+}
+.eight{
+	background-image: url("oldGuy_v001_Zblur8Bits.jpg");
+	background-size: 800px 800px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -362px -322px;
+	display: inline-block;
+}
+.nine{
+	background-image: url("48342-2833556-portraits-of-strangers-9254.jpg");
+	background-size: 1054px 700px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -525px -308px;
+	display: inline-block;
+}
+.ten{
+	background-image: url("stranger-01652.jpg");
+	background-size: 954px 600px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -579px -275px;
+	display: inline-block;
+}
+.eleven{
+	background-image: url("48342-2833550-portraits-of-strangers-8418.jpg");
+	background-size: 1600px 1063px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -430px -389px;
+	display: inline-block;
+}
+.twelve{
+	background-image: url("48342-2833554-portraits-of-strangers-9223.jpg");
+	background-size: 1054px 700px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -387px -455px;
+	display: inline-block;
+}
+.thirteen{
+	background-image: url("_dsc0228fb.png");
+	background-size: 1499px 1000px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -644px -562px;
+	display: inline-block;
+}
+.fourteen{
+	background-image: url("portraits-of-strangers-photo-08.jpg");
+	background-size: 853px 600px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -400px -403px;
+	display: inline-block;
+}
+.fifteen{
+	background-image: url("portraits-of-strangers-9765.jpg");
+	background-size: 1280px 850px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -893px -550px;
+	display: inline-block;
+}
+.sixteen{
+	background-image: url("1600x1200-3.jpg");
+	background-size: 1600px 1063px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -349px -750px;
+	display: inline-block;
+}
+.seventeen{
+	background-image: url("shooting_elderly_portraits_for_a_cause_by_dannyst-d5fycli.jpg");
+	background-size: 727px 550px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -182px -374px;
+	display: inline-block;
+}
+.eighteen{
+	background-image: url("portraits-of-strangers-photo-02.jpg");
+	background-size: 853px 600px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -387px -470px;
+	display: inline-block;
+}
+.nineteen{
+	background-image: url("portraits-of-strangers-photo-11.jpg");
+	background-size: 753px 500px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -378px -365px;
+	display: inline-block;
+}
+.twenty{
+	background-image: url("4621649788_c611973199_o_700x465.jpg");
+	background-size: 700px 465px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -598px -358px;
+	display: inline-block;
+}

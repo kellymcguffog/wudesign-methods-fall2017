@@ -1,0 +1,144 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 24%;
+	height: auto;
+	display: inline-block;
+	margin: .25%;
+}
+.one{
+	background-image: url("freck.png");
+	background-size: 800px 403px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -245px 0;
+	display: inline-block;
+}
+.two{
+	background-image: url("india.png");
+	background-size: 540px 386px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -300px 0;
+	display: inline-block;
+}
+.three{
+	background-image: url("asboy.png");
+	background-size: 700px 847px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -142px -393px;
+	display: inline-block;
+}
+.four{
+	background-image: url("girl.png");
+	background-size: 1000px 633px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -493px -193px;
+	display: inline-block;
+}
+.secondone, .secondtwo, .secondthree, .secondfour{
+	display: none;
+}
+@media(min-width: 600px) and (max-width: 800px){
+	.secondone, .secondtwo, .secondthree, .secondfour{
+	display: inline-block;
+}
+.secondtwo{
+	background-image: url("freck.png");
+	background-size: 800px 403px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -245px 0;
+	display: inline-block;
+}
+.secondfour{
+	background-image: url("india.png");
+	background-size: 540px 386px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -300px 0;
+	display: inline-block;
+}
+.secondone{
+	background-image: url("asboy.png");
+	background-size: 700px 847px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -142px -393px;
+	display: inline-block;
+}
+.secondthree{
+	background-image: url("girl.png");
+	background-size: 1000px 633px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -493px -193px;
+	display: inline-block;
+}
+	.one, .two, .three, .four{
+		display: none;
+	}
+}
+@media(min-width: 100px) and (max-width: 600px){
+		.secondone, .secondtwo, .secondthree, .secondfour{
+	display: inline-block;
+}
+.secondtwo{
+	background-image: url("freck.png");
+	background-size: 800px 403px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -445px 0;
+	display: inline-block;
+}
+.secondfour{
+	background-image: url("india.png");
+	background-size: 540px 386px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -270px -183px;
+	display: inline-block;
+}
+.secondone{
+	background-image: url("asboy.png");
+	background-size: 700px 847px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -162px -213px;
+	display: inline-block;
+}
+.secondthree{
+	background-image: url("girl.png");
+	background-size: 1000px 633px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -393px -193px;
+	display: inline-block;
+}
+	.one, .two, .three, .four{
+		display: none;
+	}
+
+}

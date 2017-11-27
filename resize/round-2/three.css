@@ -1,0 +1,55 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+img{
+	width: 24%;
+	height: auto;
+	display: inline-block;
+	margin: .25%;
+}
+.one{
+	background-image: url("freck.png");
+	background-size: 700px 354px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -207px -24px;
+	display: inline-block;
+}
+.two{
+	background-image: url("263101ddfbb9ce0f41bd74b9727d3a73.jpg");
+	background-size: 564px 844px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -262px -327px;
+	display: inline-block;
+}
+.three{
+	background-image: url("asboy.png");
+	background-size: 700px 847px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -142px -448px;
+	display: inline-block;
+}
+.four{
+	background-image: url("81499cfe3246ac61bbb7011910286378.jpg");
+	background-size: 500px 595px;
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: -315px -250px;
+	display: inline-block;
+}
+.secondone, .secondtwo, .secondthree, .secondfour{
+	display: none;
+}
