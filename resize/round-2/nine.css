@@ -412,14 +412,16 @@ h2{
 		display: none;
 	}
 
-}}
+}
 @media(min-width: 100px) and (max-width: 900px){
 	.images{
 	display: none;
 }
 .text{
-	width: 100%;
+	width: 70%;
 	display:block;
+	margin: auto;
+	padding-top: 200px;
 }
 	h1{
 		font-size: 25px;
@@ -431,4 +433,4 @@ h2{
 		display: none;
 	}
 
-}}
+}
