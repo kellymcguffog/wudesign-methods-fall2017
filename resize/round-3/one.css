@@ -1,0 +1,595 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+.images{
+	width: 60%;
+	display: inline-block;
+}
+.thirdfive{
+	background-image: url("freck.png");
+	background-size: 700px 354px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -555px -0px;
+	display: inline-block;
+}
+.thirdfifteen{
+	background-image: url("263101ddfbb9ce0f41bd74b9727d3a73.jpg");
+	background-size: 564px 844px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -379px -442px;
+	display: inline-block;
+}
+.thirdsix{
+	background-image: url("asboy.png");
+	background-size: 700px 847px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -97px -292px;
+	display: inline-block;
+}
+.thirdfourteen{
+	background-image: url("81499cfe3246ac61bbb7011910286378.jpg");
+	background-size: 600px 695px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -430px -195px;
+	display: inline-block;
+}
+.thirdseven{
+	background-image: url("freck.png");
+	background-size: 700px 354px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -259px -90px;
+	display: inline-block;
+}
+.thirdseventeen{
+	background-image: url("1.jpg");
+	background-size: 1252px 880px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -421px -588px;
+	display: inline-block;
+}
+.thirdone{
+	background-image: url("portraits-of-strangers-9391.jpg");
+	background-size: 980px 550px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -271px -52px;
+	display: inline-block;
+}
+.thirdeleven{
+	background-image: url("oldGuy_v001_Zblur8Bits.jpg");
+	background-size: 800px 800px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -169px -370px;
+	display: inline-block;
+}
+.thirdnineteen{
+	background-image: url("48342-2833556-portraits-of-strangers-9254.jpg");
+	background-size: 654px 400px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -339px -252px;
+	display: inline-block;
+}
+.thirdtwelve{
+	background-image: url("stranger-01652.jpg");
+	background-size: 954px 600px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -275px -276px;
+	display: inline-block;
+}
+.thirdeight{
+	background-image: url("48342-2833550-portraits-of-strangers-8418.jpg");
+	background-size: 800px 463px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -393px -108px;
+	display: inline-block;
+}
+.thirdthirteen{
+	background-image: url("48342-2833554-portraits-of-strangers-9223.jpg");
+	background-size: 854px 500px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -411px -244px;
+	display: inline-block;
+}
+.thirdfour{
+	background-image: url("_dsc0228fb.png");
+	background-size: 1499px 1000px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -775px -246px;
+	display: inline-block;
+}
+.thirdtwo{
+	background-image: url("portraits-of-strangers-photo-08.jpg");
+	background-size: 853px 600px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -219px -119px;
+	display: inline-block;
+}
+.thirdnine{
+	background-image: url("portraits-of-strangers-9765.jpg");
+	background-size: 1280px 850px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -760px -336px;
+	display: inline-block;
+}
+.thirdeighteen{
+	background-image: url("1600x1200-3.jpg");
+	background-size: 800px 563px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -318px -354px;
+	display: inline-block;
+}
+.thirdtwenty{
+	background-image: url("shooting_elderly_portraits_for_a_cause_by_dannyst-d5fycli.jpg");
+	background-size: 727px 550px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -464px -333px;
+	display: inline-block;
+}
+.thirdten{
+	background-image: url("portraits-of-strangers-photo-02.jpg");
+	background-size: 853px 600px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -589px -285px;
+	display: inline-block;
+}
+.thirdthree{
+	background-image: url("portraits-of-strangers-photo-11.jpg");
+	background-size: 753px 500px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -296px -79px;
+	display: inline-block;
+}
+.thirdsixteen{
+	background-image: url("4621649788_c611973199_o_700x465.jpg");
+	background-size: 900px 665px;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: -181px -451px;
+	display: inline-block;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty{
+	display: none;
+}
+.secondone, .secondtwo, .secondthree, .secondfour, .secondfive, .secondsix, .secondseven, .secondeight, .secondnine, .secondten, .secondeleven, .secondtwelve, .secondthirteen, .secondfourteen, .secondfifteen, .secondsixteen, .secondseventeen, .secondeighteen, .secondnineteen, .secondtwenty{
+	display: none;
+}
+
+@media(min-width: 700px) and (max-width: 900px){
+	.images{
+		width: 60%;
+		display: inline-block;
+	}
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size:16px;
+	}
+	.secondseven{
+		background-image: url("freck.png");
+		background-size: 700px 354px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -259px -112px;
+		display: inline-block;
+}
+	.secondsixteen{
+		background-image: url("263101ddfbb9ce0f41bd74b9727d3a73.jpg");
+		background-size: 564px 844px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -48px -582px;
+		display: inline-block;
+	}
+	.secondnineteen{
+		background-image: url("asboy.png");
+		background-size: 700px 847px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -400px -507px;
+		display: inline-block;
+	}
+	.secondtwelve{
+		background-image: url("81499cfe3246ac61bbb7011910286378.jpg");
+		background-size: 600px 695px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -212px -272px;
+		display: inline-block;
+	}
+	.secondfour{
+		background-image: url("freck.png");
+		background-size: 700px 354px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -437px -3px;
+		display: inline-block;
+	}
+	.secondfourteen{
+		background-image: url("1.jpg");
+		background-size: 1252px 880px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -575px -497px;
+		display: inline-block;
+	}
+	.secondeight{
+		background-image: url("portraits-of-strangers-9391.jpg");
+		background-size: 980px 550px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -452px -173px;
+		display: inline-block;
+	}
+	.secondsix{
+		background-image: url("oldGuy_v001_Zblur8Bits.jpg");
+		background-size: 800px 800px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -157px -322px;
+		display: inline-block;
+	}
+	.secondtwenty{
+		background-image: url("48342-2833556-portraits-of-strangers-9254.jpg");
+		background-size: 1054px 700px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -718px -442px;
+		display: inline-block;
+	}
+	.secondseventeen{
+		background-image: url("stranger-01652.jpg");
+		background-size: 954px 600px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -318px -424px;
+		display: inline-block;
+	}
+	.secondtwo{
+		background-image: url("48342-2833550-portraits-of-strangers-8418.jpg");
+		background-size: 800px 463px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -282px -25px;
+		display: inline-block;
+	}
+	.secondten{
+		background-image: url("48342-2833554-portraits-of-strangers-9223.jpg");
+		background-size: 1054px 700px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -690px -404px;
+		display: inline-block;
+	}
+	.secondeighteen{
+		background-image: url("_dsc0228fb.png");
+		background-size: 1499px 1000px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -645px -639px;
+		display: inline-block;
+	}
+	.secondthree{
+		background-image: url("portraits-of-strangers-photo-08.jpg");
+		background-size: 853px 600px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -318px -122px;
+		display: inline-block;
+	}
+	.secondthirteen{
+		background-image: url("portraits-of-strangers-9765.jpg");
+		background-size: 1280px 850px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -619px -514px;
+		display: inline-block;
+	}
+	.secondeleven{
+		background-image: url("1600x1200-3.jpg");
+		background-size: 800px 563px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -119px -259px;
+		display: inline-block;
+	}
+	.secondfifteen{
+		background-image: url("shooting_elderly_portraits_for_a_cause_by_dannyst-d5fycli.jpg");
+		background-size: 727px 550px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -412px -333px;
+		display: inline-block;
+	}
+	.secondone{
+		background-image: url("portraits-of-strangers-photo-02.jpg");
+		background-size: 853px 600px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -192px -167px;
+		display: inline-block;
+	}
+	.secondfive{
+		background-image: url("portraits-of-strangers-photo-11.jpg");
+		background-size: 753px 500px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -446px -102px;
+		display: inline-block;
+	}
+	.secondnine{
+		background-image: url("4621649788_c611973199_o_700x465.jpg");
+		background-size: 900px 665px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -521px -273px;
+		display: inline-block;
+	}
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty{
+		display: none;
+	}
+	.thirdone, .thirdtwo, .thirdthree, .thirdfour, .thirdfive, .thirdsix, .thirdseven, .thirdeight, .thirdnine, .thirdten, .thirdeleven, .thirdtwelve, .thirdthirteen, .thirdfourteen, .thirdfifteen, .thirdsixteen, .thirdseventeen, .thirdeighteen, .thirdnineteen, .thirdtwenty{
+		display: none;
+	}
+
+}
+
+@media(min-width: 500px) and (max-width: 700px){
+	.images{
+		width: 50%;
+		display: inline-block;
+		margin-right: 25px;
+	}
+	.one{
+		background-image: url("freck.png");
+		background-size: 700px 354px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -135px 0px;
+		display: inline-block;
+	}
+	.two{
+		background-image: url("263101ddfbb9ce0f41bd74b9727d3a73.jpg");
+		background-size: 564px 844px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -112px -327px;
+		display: inline-block;
+	}
+	.three{
+		background-image: url("asboy.png");
+		background-size: 700px 847px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -311px -229px;
+		display: inline-block;
+	}
+	.four{
+		background-image: url("81499cfe3246ac61bbb7011910286378.jpg");
+		background-size: 500px 595px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -340px -73px;
+		display: inline-block;
+	}
+	.five{
+		background-image: url("freck.png");
+		background-size: 700px 354px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -565px -18px;
+		display: inline-block;
+	}
+	.six{
+		background-image: url("1.jpg");
+		background-size: 852px 480px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -177px -225px;
+		display: inline-block;
+	}
+	.seven{
+		background-image: url("portraits-of-strangers-9391.jpg");
+		background-size: 1080px 650px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -398px -249px;
+		display: inline-block;
+	}
+	.eight{
+		background-image: url("oldGuy_v001_Zblur8Bits.jpg");
+		background-size: 800px 800px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -362px -322px;
+		display: inline-block;
+	}
+	.nine{
+		background-image: url("48342-2833556-portraits-of-strangers-9254.jpg");
+		background-size: 1054px 700px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -525px -308px;
+		display: inline-block;
+	}
+	.ten{
+		background-image: url("stranger-01652.jpg");
+		background-size: 954px 600px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -579px -275px;
+		display: inline-block;
+	}
+	.eleven{
+		background-image: url("48342-2833550-portraits-of-strangers-8418.jpg");
+		background-size: 1600px 1063px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -430px -389px;
+		display: inline-block;
+	}
+	.twelve{
+		background-image: url("48342-2833554-portraits-of-strangers-9223.jpg");
+		background-size: 1054px 700px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -387px -455px;
+		display: inline-block;
+	}
+	.thirteen{
+		background-image: url("_dsc0228fb.png");
+		background-size: 1499px 1000px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -644px -562px;
+		display: inline-block;
+	}
+	.fourteen{
+		background-image: url("portraits-of-strangers-photo-08.jpg");
+		background-size: 853px 600px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -400px -403px;
+		display: inline-block;
+	}
+	.fifteen{
+		background-image: url("portraits-of-strangers-9765.jpg");
+		background-size: 1280px 850px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -893px -550px;
+		display: inline-block;
+	}
+	.sixteen{
+		background-image: url("1600x1200-3.jpg");
+		background-size: 1600px 1063px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -349px -750px;
+		display: inline-block;
+	}
+	.seventeen{
+		background-image: url("shooting_elderly_portraits_for_a_cause_by_dannyst-d5fycli.jpg");
+		background-size: 727px 550px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -182px -374px;
+		display: inline-block;
+	}
+	.eighteen{
+		background-image: url("portraits-of-strangers-photo-02.jpg");
+		background-size: 853px 600px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -387px -470px;
+		display: inline-block;
+	}
+	.nineteen{
+		background-image: url("portraits-of-strangers-photo-11.jpg");
+		background-size: 753px 500px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -378px -365px;
+		display: inline-block;
+	}
+	.twenty{
+		background-image: url("4621649788_c611973199_o_700x465.jpg");
+		background-size: 700px 465px;
+		width: 100px;
+		height: 100px;
+		background-repeat: no-repeat;
+		background-position: -598px -358px;
+		display: inline-block;
+	}
+	.secondone, .secondtwo, .secondthree, .secondfour, .secondfive, .secondsix, .secondseven, .secondeight, .secondnine, .secondten, .secondeleven, .secondtwelve, .secondthirteen, .secondfourteen, .secondfifteen, .secondsixteen, .secondseventeen, .secondeighteen, .secondnineteen, .secondtwenty{
+		display: none;
+	}
+	.thirdone, .thirdtwo, .thirdthree, .thirdfour, .thirdfive, .thirdsix, .thirdseven, .thirdeight, .thirdnine, .thirdten, .thirdeleven, .thirdtwelve, .thirdthirteen, .thirdfourteen, .thirdfifteen, .thirdsixteen, .thirdseventeen, .thirdeighteen, .thirdnineteen, .thirdtwenty{
+		display: none;
+	}
+}
