@@ -1,0 +1,24 @@
+{
+"entrypoints": [
+{
+"name": "1",
+"file": "one.html"
+},
+{
+"name": "2",
+"file": "two.html"
+},
+{
+"name": "3",
+"file": "three.html"
+},
+{
+"name": "4",
+"file": "four.html"
+},
+{
+"name": "5",
+"file": "five.html"
+}
+]
+}
